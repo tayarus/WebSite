@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+section{
+    padding: 0;
+    margin: 0;
+}
+.sent{
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    color:white;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto; 
+}
+header{
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer{
+    background: url('../img/down-bg.jpg') no-repeat center top / cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+header a{
+    color: white;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li{
+    margin-left: 20px;   
+    margin-right: 20px; 
+}
+.tel{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.cent{
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.imgr{
+    margin-left: 585px;
+    background-image: url('../img/main.jpg') no-repeat center top / cover; 
+    background-size: auto;
+    position: absolute;
+}
+.lh-lg{
+    padding-left: 70px;
+}
+.tutor {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color:black;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.tutor li a{
+    text-decoration: none;
+    color:black;
+}
+footer a{
+    color:whitesmoke;
+    font-size: 14px;
+}
+.fnav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.fnav li a{
+    text-decoration: none;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+}
+.bottom li a{
+    text-decoration: none;
+}
+.bottom li{
+    text-decoration: none;
+    margin-left: 20px;   
+    margin-right: 20px; 
+    color:whitesmoke;
+}
+.Kontact{
+    text-decoration: none;
+    margin-left: 170px;
+    color:whitesmoke;
+}
+.diff{
+    text-decoration: none;
+    margin-left: 170px;
+    color:whitesmoke; 
+}
+.title{
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+    color:black;
+}
+table{
+    width: 130%;
+    border: 1px solid grey;
+}
+th{
+    border: 1px solid grey;
+}
+td{
+    border: 1px solid grey;
+}
